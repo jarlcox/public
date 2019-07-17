@@ -1,3 +1,3 @@
-# Notes hahaha
+# Notes
 
 Sharing for some notes...
