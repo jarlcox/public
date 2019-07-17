@@ -8,10 +8,6 @@
 
 > 引用1
 
-> 引用2
-
-> 引用3
-
 [连接1](http://www.baidu.com)
 ![图片1](https://www.koix-studio.cn/images/favicon.ico)
 
