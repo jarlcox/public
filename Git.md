@@ -53,4 +53,10 @@ git clone git@github.com:jarlcox/sharing.git
 git checkout -b dev
 # 查看分支
 git branch
+# 切换到master分支
+git checkout master
+# 合并dev分支到master
+git merge dev
+# 删除dev分支
+git branch -d dev
 ```
