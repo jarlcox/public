@@ -39,10 +39,18 @@ git reset HEAD test.txt
 # 从版本库里删除文件并提交
 git rm test.txt
 git commit -m "remove test.txt."
+
 # 将本地工作区关联到github
 git remote add origin git@github.com:jarlcox/sharing.git
 # 第一次将本地版本库与远程仓库关联
 git push -u origin master
 # 更新到远程仓库
 git push origin master
+# 从远程仓库克隆项目
+git clone git@github.com:jarlcox/sharing.git
+
+# 创建并切换到dev分支
+git checkout -b dev
+# 查看分支
+git branch
 ```
