@@ -59,4 +59,13 @@ git checkout master
 git merge dev
 # 删除dev分支
 git branch -d dev
+
+# 发现冲突后先取一个temp分支
+git fetch origin master:temp
+# 对比temp分支与本地master分支
+git diff temp
+# 将temp分支与本地master分支合并
+git merge temp
+# 最后删除temp分支
+git branch -d temp
 ```
